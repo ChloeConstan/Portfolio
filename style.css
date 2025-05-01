@@ -97,7 +97,6 @@ article {
     border-radius: 15px;
     padding: 5px 15px;
     width: 300px;
-    height: 750px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -116,15 +115,21 @@ h4 {
     color: #5c3c54;
 }
 
+.card_img_container {
+    width: 100%;
+    text-align: center;
+    
+}
+
 .card_img {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 200px;
     border-radius: 20px;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
-    margin-top: 15px; 
+    margin-top: 30px;
+
 }
 
 .card_img:hover {
@@ -136,8 +141,8 @@ p {
     font-family: "Tuffy", sans-serif;
     font-size: 18px;
     font-weight: 300;
-    margin: 20px 5px 0;
-    padding: 8px 20px 0;
+    margin: 2px 5px 0;
+    padding: 5px 20px 0;
     text-align: center;
     color: #5c3c54;
     text-shadow: 0 1px 1px rgba(0,0,0,0.05);
@@ -146,8 +151,8 @@ p {
 
 em {
     font-size: 16px;
+    font-weight: 200;
 }
-
 
 .btn {
     display: inline-block;
@@ -160,7 +165,7 @@ em {
     text-decoration: none;
     font-weight: bold;
     transition: background-color 0.3s;
-  }
+}
   
 .btn:hover {
     background-color: rgb(157, 122, 162);
@@ -173,21 +178,19 @@ em {
 
 
 #about {
-    display: flex;
-    flex-direction: column;
     margin: 0;
     margin-top: 100px;
 }
 
 #art_about {
+    display: flex;
+    flex-direction: column;
     border: solid rgb(233, 182, 241) 5px;
     background-color: rgb(246, 229, 248);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     border-radius: 15px;
     padding: 5px 15px;
     margin : 10px;
-    display: flex;
-    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
@@ -234,7 +237,6 @@ em {
     margin-top: 100px;
 }
 
-
 form {
     display: flex;
     flex-direction: column;
@@ -243,9 +245,11 @@ form {
     margin: 10px;
     padding: 10px;
     background-color: rgb(246, 229, 248);
+    border: solid rgb(233, 182, 241) 5px;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
+
 label {
     font-size: 18px;
     font-weight: 500;
@@ -254,6 +258,7 @@ label {
     color: #5c3c54;
     text-shadow: 0 1px 1px rgba(0,0,0,0.05);
 }
+
 input {
     max-width: 300px;
     width: 150px;
@@ -286,8 +291,30 @@ button {
 
   /* responsive section  */
 
-
+ 
 @media (min-width: 768px) {
+   
+    ul {
+        justify-content: space-evenly;
+        margin-bottom: 150px;
+    }
+   
+    h3 {
+        font-size: 30px;
+        margin: 50px 50px 20px 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+        
+    }
+
+    #title {
+        margin: 50px 10px;
+
+    }
+    
     article {
         flex-direction: row;
         flex-wrap: wrap;
@@ -296,16 +323,16 @@ button {
   
     .project_card {
         width: 400px;
-        margin: 10px;
+        height: 800px;
+        margin: 50px 30px;
+        text-align:center;
     }
 
-    #art_about {
-        padding: 15px;
-    }
 
     .p_about {
         font-size: 16px;
         line-height: 1.5;
+        
     } 
 
     #img_about {
@@ -317,26 +344,25 @@ button {
     }
 
     .links_about {
+        display: flex;
         flex-direction:row;
-        align-items: center;
         gap: 10px;
     }
 
     .btn {
-        width: 100%;
+        width: 250px;
+        font-size: 18px;;
         text-align: center;
         padding: 10px;
     }
+
     #about {
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        /* gap: 40px; */
+        gap: 40px; 
         padding: 0 40px;
     }
 
     #art_about {
-        max-width: 600px;
+        
         padding: 20px;
     }
 
@@ -358,20 +384,22 @@ button {
 
     /* SECTION CONTACT */
     form {
-        max-width: 700px;
-        margin: 0 auto;
+        margin: 50px;
         padding: 30px;
+        display: flex;
     }
 
     input,
     textarea {
+        display: flex;
         max-width: 500px;
         width: 100%;
     }
 
     label {
-        align-self: flex-start;
-        margin-left: 5%;
+        justify-self: center;
+        font-size: 20px;
+        font-weight: 500;        
     }
 
     button {
@@ -388,4 +416,4 @@ button {
         background-color: #d78bdc;
     }
 }
-
+ */
