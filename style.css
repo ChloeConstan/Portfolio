@@ -1,0 +1,391 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;    
+    background-color: rgb(255, 238, 248);
+}
+
+/* header */
+
+ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 5px;
+    gap: 20px;
+}
+
+li{
+    font-size: 18px;
+    list-style: none;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: #d08ba5;
+    
+}
+header {
+    text-align: center;
+    padding: 20px;
+    font-family: "Tuffy", sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 22px;
+    margin: 50px 0 5px 0;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-align: center;
+    font-size: 20px;
+    margin: 2px;
+    font-weight: 300;
+    margin: 50px;
+}
+
+.cats {
+    width: 250px;
+    margin-top: 15px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+
+/* projects section */
+
+
+#projects{
+    margin: 0;
+    margin-top: 50px;
+}
+
+h3 {
+    background-color: rgb(202, 144, 202);
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+article {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.project_card {
+    border: solid rgb(233, 182, 241) 5px;
+    background-color: rgb(246, 229, 248);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    padding: 5px 15px;
+    width: 300px;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Tuffy", sans-serif;
+    text-transform: uppercase;
+    margin: 5px;
+    padding: 5px;
+    letter-spacing: 2px;
+    color: #5c3c54;
+}
+
+.card_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+    margin-top: 15px; 
+}
+
+.card_img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+
+p {
+    font-family: "Tuffy", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 20px 5px 0;
+    padding: 8px 20px 0;
+    text-align: center;
+    color: #5c3c54;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.05);
+    min-height: 80px;
+}
+
+em {
+    font-size: 16px;
+}
+
+
+.btn {
+    display: inline-block;
+    background-color: rgb(208, 160, 215);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    color: white;
+    padding: 10px 20px;
+    margin: 5px 10px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+.btn:hover {
+    background-color: rgb(157, 122, 162);
+    color: white;
+    transform: scale(1.00);
+}
+
+
+/* about section */
+
+
+#about {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-top: 100px;
+}
+
+#art_about {
+    border: solid rgb(233, 182, 241) 5px;
+    background-color: rgb(246, 229, 248);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    padding: 5px 15px;
+    margin : 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.p_about {
+    font-style: normal;
+    margin-bottom: 15px;
+    color: #5c3c54;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.05);
+    min-height: 80px;
+    font-family: "Tuffy", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#img_about {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+    margin: 20px auto;
+    display: block;
+}
+
+.links_about {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+
+
+
+
+
+
+  /* contact section */
+
+
+#contact {
+    margin-top: 100px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(246, 229, 248);
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+label {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 5px 2px 5px;
+    padding: 0 5px 5px;
+    color: #5c3c54;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.05);
+}
+input {
+    max-width: 300px;
+    width: 150px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid rgb(233, 182, 241) 2px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+    margin-bottom: 10px;
+}
+
+textarea {
+    max-width: 300px;
+    width: 250px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid rgb(233, 182, 241) 2px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+    margin-bottom: 10px;
+}
+
+button {
+    border: none;
+}
+
+
+
+
+
+  /* responsive section  */
+
+
+@media (min-width: 768px) {
+    article {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+  
+    .project_card {
+        width: 400px;
+        margin: 10px;
+    }
+
+    #art_about {
+        padding: 15px;
+    }
+
+    .p_about {
+        font-size: 16px;
+        line-height: 1.5;
+    } 
+
+    #img_about {
+        width: 100%;
+        height: auto;
+        max-width: 300px;
+        margin: 10px auto;
+        display: block;
+    }
+
+    .links_about {
+        flex-direction:row;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .btn {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+    #about {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        /* gap: 40px; */
+        padding: 0 40px;
+    }
+
+    #art_about {
+        max-width: 600px;
+        padding: 20px;
+    }
+
+    .p_about {
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    #img_about {
+        max-width: 350px;
+        margin: 0;
+    }
+
+    .links_about {
+        flex-direction: row;
+        gap: 20px;
+        margin-top: 15px;
+    }
+
+    /* SECTION CONTACT */
+    form {
+        max-width: 700px;
+        margin: 0 auto;
+        padding: 30px;
+    }
+
+    input,
+    textarea {
+        max-width: 500px;
+        width: 100%;
+    }
+
+    label {
+        align-self: flex-start;
+        margin-left: 5%;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        background-color: #e9b6f1;
+        color: #5c3c54;
+        border-radius: 10px;
+        transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+        background-color: #d78bdc;
+    }
+}
+

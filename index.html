@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tuffy:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#about">A propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Chlöe Constan</h1>
+        <h2>Développeuse web en alternance, passionnée par la création d’interfaces douces, accessibles et intuitives. Curieuse, créative et toujours prête à apprendre, je cherche à mettre mes compétences au service de projets utiles et humains.</h2>
+        
+    </header>
+    <main>
+        <section id="projects">
+            <h3>Mes projets</h3>
+            <article>
+                <div class="project_card">
+                    <h4>MystikScope 🔮</h4>
+                    <img class="card_img" src="/img/astro.png" alt="">
+                    <p>Application web permettant de consulter son horoscope quotidien selon son signe astrologique ✨
+                    <br>
+                    💡<em>Fonctionnalités : intégration d'une API externe, gestion des requêtes HTTP, affichage dynamique des résultats en JavaScript Vanilla.
+                    <br>
+                        Ce projet m’a permis de consolider mes compétences en manipulation du DOM et en consommation d’API.</em></p>
+                    <a href="https://github.com/tonlien" class="btn" target="_blank">Voir sur GitHub</a>
+                </div>
+                <div class="project_card">
+                    <h4>Potionix ⚗️</h4>
+                    <img class="card_img" src="/img/astro.png" alt="">
+                    <p>Application ludique de création de potions magiques à partir d’ingrédients sélectionnés par l'utilisateur 🫧
+                    <br> 
+                    <em>🧪 Fonctionnalités : génération aléatoire de résultats, gestion d’événements, logique conditionnelle.
+                    <br>
+                        Un projet conçu pour m’entraîner à la logique JavaScript tout en cultivant un univers créatif.</em></p>
+                    <a href="https://github.com/tonlien" class="btn" target="_blank">Voir sur GitHub</a>
+                </div>
+                <div class="project_card">
+                    <h4>Miaougotchi 🐱</h4>
+                    <img class="card_img" src="/img/astro.png" alt="">
+                    <p>Application interactive inspirée des Tamagotchis, où l’on prend soin d’un petit chat virtuel 🐈‍⬛
+                    <br>
+                    <em>🐾 Fonctionnalités : gestion de l’état de l’animal (faim, sommeil, humeur), timers, interactions utilisateur.
+                    <br>
+                        Ce projet m’a permis de mettre en œuvre une logique de jeu simple en JavaScript, tout en développant une interface engageante. </em></p>
+                    <a href="https://github.com/tonlien" class="btn" target="_blank">Voir sur GitHub</a>
+                </div>
+            </article>
+        </section>
+
+        <section id="about">
+            <h3>À propos</h3>
+                <article id="art_about">
+                    <p class="p_about">Je m'appelle Chlöe, développeuse web en alternance, passionnée par la création d’interfaces accessibles, intuitives et pleines de douceur.</p>
+                    <img id="img_about" src="/img/pictureofme.png" alt="">
+                    <p class="p_about">Actuellement en formation chez <a href="https://cloud-campus.fr/" target="_blank">Cloud Campus</a>, je poursuis mes études dans le développement web afin d’approfondir mes compétences techniques et créatives. 
+                        <br> 
+                        J’ai déjà acquis de solides bases en HTML, CSS et JavaScript, et je suis impatiente de continuer à progresser au sein d’une entreprise engagée.
+                        <br>
+                        En dehors du développement, j’adore les jeux vidéo comme Tomb Raider, Les Sims 4 ou Minecraft — mon rêve serait de développer un jour mon propre jeu ✨.
+                        <br>
+                        Je suis aussi passionnée par les activités créatives comme le coloriage, le diamond painting, le kalimba ou la poterie… et je partage mon quotidien avec mes adorables chats 🐾.</p>
+                    <div class="links_about">
+                        <a href="CV_Chloe_Alternance_Web.pdf.pdf" target="_blank" class="btn" download="CV_Chloe_Alternance_Web.pdf">Mon CV </a>
+                        <a href="https://github.com/ChloeConstan/" target="_blank" class="btn">Mon GitHub </a>
+                        <a href="https://www.linkedin.com/in/chloeconstan-dev/" target="_blank" class="btn">Mon LinkedIn </a>
+                    </div>
+                </article>
+        </section>
+
+        <section id="contact">
+            <h3>Contact</h3>
+            <form
+                action="https://formspree.io/f/xqaqpzae" method="POST">
+                <label>Ton email:
+                <input type="email" name="email" required>
+                </label>
+                <br>
+                <label>Ton message:
+                <textarea name="message" required></textarea>
+                </label>
+                <br>
+                <button class="btn" type="submit">Envoyer</button>
+            </form>
+
+        </section>
+    </main>
+</body>
+</html>
